@@ -1,4 +1,5 @@
 
+import { InconsistentDate } from "./components/temporal/InconsistentDate";
 import { MonthBased } from "./components/temporal/MonthBased";
 import { ObjMutable } from "./components/temporal/ObjMutable";
 
@@ -9,6 +10,7 @@ export default function Ecmascript() {
         <div className="max-w-[90%] m-auto">
             <MonthBased />
             <ObjMutable />
+            <InconsistentDate />
         </div>
     )
 }
