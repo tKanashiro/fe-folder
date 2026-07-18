@@ -42,12 +42,12 @@ const endDate = startDate.add({ days: 7 });`}
                 <Result
                     title="Start Date:"
                     result={date1.toString()}
-                    before={false}
+                    resultStyle="temporal"
                 />
                 <Result
                     title="End Date:"
                     result={date2.toString()}
-                    before={false}
+                    resultStyle="temporal"
                     style="mt-5"
                 />
             </Block>

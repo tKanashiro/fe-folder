@@ -34,7 +34,7 @@ export function MonthBased() {
                 <Result
                     title="Temporal Date:"
                     result={temporalDate.toString()}
-                    before={false}
+                    resultStyle="temporal"
                     style="mt-5"
                 />
             </Block>
