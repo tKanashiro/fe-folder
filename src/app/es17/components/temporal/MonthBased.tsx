@@ -1,10 +1,10 @@
-import { Header } from "./Header";
+import { Header } from "../Header";
 import { Temporal } from "temporal-polyfill";
-import { Result } from "./Result";
-import { Code } from "./Code";
-import { Block } from "./Block";
+import { Result } from "../Result";
+import { Code } from "../Code";
+import { Block } from "../Block";
 
-export function TemporalBlock() {
+export function MonthBased() {
     const oldDate = new Date(2026, 1, 15);
     const temporalDate = Temporal.PlainDate.from({
         year: 2026,
